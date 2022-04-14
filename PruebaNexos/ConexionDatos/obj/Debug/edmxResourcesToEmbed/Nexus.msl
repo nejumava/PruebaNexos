@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NexusModelStoreContainer" CdmEntityContainer="NexusEntities">
+    <EntitySetMapping Name="autors">
+      <EntityTypeMapping TypeName="NexusModel.autor">
+        <MappingFragment StoreEntitySet="autor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="fecha_nacimiento" ColumnName="fecha_nacimiento" />
+          <ScalarProperty Name="ciudad" ColumnName="ciudad" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="libroes">
+      <EntityTypeMapping TypeName="NexusModel.libro">
+        <MappingFragment StoreEntitySet="libro">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="anio" ColumnName="anio" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="num_paginas" ColumnName="num_paginas" />
+          <ScalarProperty Name="autor_id" ColumnName="autor_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

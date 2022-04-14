@@ -1,0 +1,10 @@
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\Nexus\bin\Debug\Base de datos.dacpac
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\Nexus\bin\Debug\Nexus.dll
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\Nexus\bin\Debug\Nexus.pdb
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\Nexus\obj\Debug\Base de datos.sqlprojAssemblyReference.cache
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\Nexus\obj\Debug\Model.xml
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\Nexus\obj\Debug\refactor.xml
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\Nexus\obj\Debug\postdeploy.sql
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\Nexus\obj\Debug\predeploy.sql
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\Nexus\obj\Debug\Nexus.dll
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\Nexus\obj\Debug\Nexus.pdb

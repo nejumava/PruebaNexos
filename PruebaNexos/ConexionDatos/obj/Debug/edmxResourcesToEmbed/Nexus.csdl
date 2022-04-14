@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NexusModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="autor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fecha_nacimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ciudad" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="libroes" Relationship="Self.FK__libro__autor_id__3B75D760" FromRole="autor" ToRole="libro" />
+  </EntityType>
+  <EntityType Name="libro">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="titulo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="anio" Type="Int16" Nullable="false" />
+    <Property Name="genero" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="num_paginas" Type="Int16" Nullable="false" />
+    <Property Name="autor_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="autor" Relationship="Self.FK__libro__autor_id__3B75D760" FromRole="libro" ToRole="autor" />
+  </EntityType>
+  <Association Name="FK__libro__autor_id__3B75D760">
+    <End Role="autor" Type="Self.autor" Multiplicity="1" />
+    <End Role="libro" Type="Self.libro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="autor">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="libro">
+        <PropertyRef Name="autor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NexusEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="autors" EntityType="Self.autor" />
+    <EntitySet Name="libroes" EntityType="Self.libro" />
+    <AssociationSet Name="FK__libro__autor_id__3B75D760" Association="Self.FK__libro__autor_id__3B75D760">
+      <End Role="autor" EntitySet="autors" />
+      <End Role="libro" EntitySet="libroes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

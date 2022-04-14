@@ -1,0 +1,12 @@
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\bin\Debug\ConexionDatos.dll.config
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\bin\Debug\ConexionDatos.dll
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\bin\Debug\ConexionDatos.pdb
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\bin\Debug\EntityFramework.dll
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\bin\Debug\EntityFramework.xml
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\obj\Debug\ConexionDatos.csprojAssemblyReference.cache
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\obj\Debug\ConexionDatos.csproj.CoreCompileInputs.cache
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\obj\Debug\ConexionDatos.csproj.CopyComplete
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\obj\Debug\ConexionDatos.dll
+C:\Users\johnj\Documents\PROYECTOS\PRUEBAS TECNICAS\NEXUS\PruebaNexos\ConexionDatos\obj\Debug\ConexionDatos.pdb
